@@ -12,9 +12,9 @@ import pickle
 tcgPriceGuideHML = pickle.load(fh)
 fh.close()
 
-# Provide complete path to tab-delimited text file containing collection info.
+# Provide path to tab-delimited text file containing collection info.
 # Should have 3 columns: card_name, set_name, and printing
-file = '/Users/Nathaniel/Documents/06 - 2015-2017 - Postdoctoral Year Off/08 - MTG/00 - Programming/Python Scripts/V2/2017-12-21 - Krefman MTG Card Collection Raw.txt'
+file = '2017-12-21 - MTG Card Collection Raw.txt'
 
 # Open the file
 fh = open(file, 'r')
